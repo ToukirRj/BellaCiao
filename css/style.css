@@ -1,7 +1,14 @@
 
 
 /*==============Font-Face===============*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+#root{
+	font-family: "Barlow", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
 /*===========================Common CSS=========================*/
 .m0 {
   margin: 0;
@@ -12,7 +19,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Barlow", sans-serif;
   color: #5d5d5d;
   background: #092129;
   background-image: url('../images/Noise.webp');
@@ -41,7 +48,7 @@ section.row, header.row, footer.row {
 
 p {
   margin-bottom: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 .img-gray {
@@ -50,7 +57,7 @@ p {
 }
 
 .date a {
-  font: 700 14px/6px "Roboto", sans-serif;
+  font: 700 14px/6px "Barlow", sans-serif;
   color: #7b7b7b;
 }
 
@@ -113,20 +120,20 @@ p {
     position: relative;
     padding:0 70px;
 }
-.banner-area::after{
-    content:"";
-    position: absolute;
-    width:100%;
-    left:0;
-    top:0;
-    height:100%;
-    background-image:url("../images/banner.webp");
-    opacity:.15;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-attachment:scroll;
-    min-height:1000px;
-    background-size:cover;
+.banner-area::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 100%;
+	background-image: url("../images/banner.webp");
+	opacity: 1;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	min-height: 1000px;
+	background-size: cover;
 }
 .banner-area .carousel-inner .item .div-image{
 	display: flex;
@@ -140,14 +147,13 @@ p {
 	position: relative;
 }
 .banner-area .carousel-inner .item .content {
-	width: 715px;
+	width: 100%;
 	border-radius: 30px;
 	position: relative;
 	z-index: 999;
 	max-width: 100%;
 	padding: 215px 0 50px 0;
 	margin: auto;
-	text-align: center;
 }
 .banner-area .carousel-inner .item .content h1 {
 	font-style: normal;
@@ -173,8 +179,8 @@ p {
 }
 .start-btn:hover {
 	font-size: 18px;
-	color: #000;
-	background: #0191ca;
+	color: #fff;
+	background: #9b070a;
 }
 .start-btn span {
 	background: #000;
@@ -262,26 +268,26 @@ p {
 	left: 0;
 	right: 0;
 	z-index: 9999;
-	padding: 8px 50px;
+	padding: 10px 70px;
 	background: rgba(0,0,0,0.15);
 }
+.header-area .navbar{
+	padding:0;
+}
 .header-area .navbar-brand {
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%,0px);
-	z-index: 999;
+	padding:0;
 }
 .header-area .navbar-brand img{
-	width:400px;
+	width:180px;
 }
 .header-area .navbar-collapse {
 	justify-content: end;
 }
 .header-area .navbar-collapse .navbar-nav .nav-link {
 	font-weight: 600;
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 14px;
-	padding: 10px 24px;
+	padding: 16px 38px;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 1);
@@ -296,10 +302,10 @@ p {
 .header-area .navbar-collapse .navbar-nav .nav-item.book-top .nav-link {
 	font-weight: 600;
 	text-transform:uppercase;
-	font-size:14px;
+	font-size:16px;
 	background:#df1217;
 	border-left:0 !important;
-	color: #000;
+	color: #fff;
 	border-radius:5px;
 	letter-spacing:0;
 }
@@ -767,8 +773,7 @@ p {
   display:none;
 }
 .nav-area{
-	width: 100%;
-	display: flex;
+  display: flex;
 }
 .navbar-nav:last-child .nav-item label{
   display:none;

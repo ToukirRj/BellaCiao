@@ -1,6 +1,12 @@
 
 
 /*====================Responsive===================*/
+@media (min-width: 1600px){
+	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	  max-width: 1600px;
+	}
+}
+
 @media all and (max-width: 1539px) {
 	.banner-area .carousel-inner .item .content h1 {
 	  font-size: 66px;
