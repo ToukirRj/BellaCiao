@@ -39,6 +39,12 @@
 	.slider-pan .right-opacity {
 		width: 235px;
 	}
+	.banner-area::after {
+		background-position: center right;
+	}
+	.header-area .navbar-collapse .navbar-nav .nav-link {
+		padding: 16px 24px;
+	}
 }
 @media all and (max-width: 1365px) {
 	.head-text h2 {
@@ -48,8 +54,11 @@
 		padding: 10px 12px;
 	}
 	.banner-area .carousel-inner .item .content h1 {
-		font-size: 39px;
-		line-height: 40px;
+		font-size: 64px;
+		line-height: 70px;
+	}
+	.banner-area::after {
+		opacity: 0.15;
 	}
 	.banner-area .carousel-inner .item .content h1 span {
 		font-size: 28px;
@@ -105,7 +114,7 @@
 		font-size: 27px;
 	}
 	.header-area .navbar-brand img {
-		width: 250px;
+		width: 155px;
 	}
 }
 
@@ -129,7 +138,7 @@
 @media all and (max-width: 991px) {
 	.header-area .navbar-collapse {
 		padding: 20px 15px;
-		background: #002838;
+		background: #161A1F;
 	}
 	.real-footer p {
 		text-align: center;
@@ -244,16 +253,13 @@
     	font-size: 15px;
     }
 	.banner-area .carousel-inner .item .content h1 {
-		font-size: 40px;
-		line-height: 44px;
-		text-align: center;
+		font-size: 60px;
+		line-height: 64px;
+		letter-spacing: -1px;
 	}
 	.banner-area .carousel-inner .item .content h1 span {
 		font-size: 24px;
 		line-height: 34px;
-	}
-	.banner-area .carousel-inner .item .content p {
-		text-align: center;
 	}
 	.banner-area .carousel-inner .item .content h1 {
 		margin-bottom: 20px;
@@ -287,14 +293,8 @@
 		transform: none;
 		margin-right: 0;
 	}
-	.header-area {
-		padding: 30px 50px;
-	}
 	.header-area.menu-fixed{
 		padding: 8px 50px;
-	}
-	.header-area .navbar-brand img{
-		width:250px;
 	}
 	.mobile-language{
 		font-style: normal;
@@ -332,11 +332,8 @@
 	.header-area .navbar-collapse .nav-area{
 		display:flex;
 	}
-	.header-area .navbar-collapse .navbar-nav:first-child{
-		width:50%;
-	}
-	.header-area .navbar-collapse .navbar-nav:last-child{
-		width:50%;
+	.header-area .navbar-collapse .navbar-nav{
+		width:100%;
 	}
 	.header-area .navbar-collapse .navbar-nav:last-child .nav-item {
 		border-bottom: 0;
@@ -352,7 +349,7 @@
 	.header-area .navbar-collapse .navbar-nav:last-child .nav-link {
 		font-style: normal;
 		font-weight: 400;
-		font-size: 14px;
+		font-size: 19px;
 		line-height: 16.8px;
 		color: rgba(255, 255, 255, 0.4);
 		padding: 10px 0;
@@ -408,13 +405,16 @@
 	.contact-frame iframe{
         height:1500px !important;
     }
+	.gentlenero-info-text {
+		min-height: auto;
+	}
 }
 @media all and (max-width: 767px) {
 	.gentlenero-info-text {
 		margin-bottom: 30px;
 	}
 	.footer-area {
-		padding: 0 20px;
+		padding: 50px 20px;
 	}
 	.real-footer ul {
 		text-align: center;
@@ -463,17 +463,25 @@
 		line-height: 29px;
 	}
 	.banner-area {
-		padding: 0 15px;
+		padding: 0 15px 20px;
 		background-position: center;
 		background-size: cover;
 	}
+	.pri-head {
+		font-size: 45px;
+		line-height: 50px;
+		padding-bottom: 5px;
+	}
 	.banner-area .carousel-inner .item .content h1 {
-		font-size: 32px;
-		line-height: 35px;
+		font-size: 42px;
+		line-height: 46px;
 	}
 	.banner-area .carousel-inner .item .content p {
-		font-size: 11px;
+		font-size: 17px;
 		line-height: 14px;
+	}
+	.gentlenero-info-text h1 {
+		margin-top: 35px;
 	}
 	.header-area {
 		padding: 5px 15px;
@@ -487,6 +495,48 @@
 	}
 	.collection .tab-content .tab-pane img {
 		width: 24%;
+	}
+	.tokeno-part {
+		padding: 50px 0;
+	}
+	.tokeno-part .tokeno-box h1 {
+		font-size: 21px;
+		letter-spacing: -.35px;
+	}
+	.tokeno-part .tokeno-box {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.tokeno-part .tokeno-box .tokeno-line {
+		height: 34px;
+	}
+	.tokeno-part .tokeno-box .tokeno-line h4 {
+		height: 34px;
+		padding: 0 15px;
+		line-height: 34px;
+		font-size: 14px;
+	}
+	.tokeno-part .tokeno-box .tokeno-line h5 {
+		font-size: 11px;
+		padding: 0 8px;
+	}
+	.timeline {
+		padding: 50px 0;
+	}
+	.timeline .tagline p {
+		padding: 7px 15px;
+		font-size: 15px;
+		line-height: 32px;
+	}
+	.timeline .timeline-date {
+		font-size: 15px;
+		letter-spacing: -.15px;
+	}
+	.timeline .timeline-continue {
+		padding: 20px 0;
+	}
+	.timeline .timeline-container {
+		margin-top: 30px;
 	}
 }
 
