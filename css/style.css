@@ -21,7 +21,7 @@ html {
 body {
   font-family: "Barlow", sans-serif;
   color: #5d5d5d;
-  background: #092129;
+  background: #0d1216;
   background-image: url('../images/Noise.webp');
 }
 
@@ -36,10 +36,14 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   outline: none;
 }
 
-ul, h2, h3, h4, h5, h6 {
+ul, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   list-style: none;
   padding: 0;
+}
+
+h1, h2, h3{
+  letter-spacing:-3px;
 }
 
 section.row, header.row, footer.row {
@@ -147,19 +151,18 @@ p {
 	position: relative;
 }
 .banner-area .carousel-inner .item .content {
-	width: 100%;
+	width: 915px;
 	border-radius: 30px;
 	position: relative;
 	z-index: 999;
 	max-width: 100%;
-	padding: 215px 0 50px 0;
-	margin: auto;
+	padding: 200px 0 30px 0;
 }
 .banner-area .carousel-inner .item .content h1 {
 	font-style: normal;
-	font-weight: 600;
-	font-size: 59px;
-	line-height: 66px;
+	font-weight: 700;
+	font-size: 77px;
+	line-height: 90px;
 	text-transform: capitalize;
 	color: #fff;
 	position: relative;
@@ -168,7 +171,7 @@ p {
 .start-btn {
 	font-size: 18px;
 	color: #fff;
-	background: #df1217;
+	background: linear-gradient(to right, #660103, #df1217);
 	font-weight: 600;
 	line-height: 28px;
 	padding: 10px 10px 10px 30px;
@@ -180,7 +183,7 @@ p {
 .start-btn:hover {
 	font-size: 18px;
 	color: #fff;
-	background: #9b070a;
+	background: linear-gradient(to right, #660103, #660103);
 }
 .start-btn span {
 	background: #000;
@@ -239,18 +242,18 @@ p {
 	width: 150px;
 }
 .banner-area .carousel-inner .item .content p {
-	font-style: italic;
-	font-weight: 500;
-	font-size: 16px;
+	font-weight: 700;
+	font-size: 18px;
 	line-height: 24px;
-	color: #00DF0E;
+	color: #999;
 	margin-top: 5px;
 	margin-bottom: 15px;
+	text-transform: uppercase;
 }
 .banner-area .carousel-inner .item .content p.dp {
-	font-size: 18px;
-	line-height: 31px;
-	color: rgba(255, 255, 255, 1);
+	font-size: 20px;
+	line-height: 32px;
+	color: rgba(255, 255, 255, .65);
 	text-transform: none;
 	margin-bottom: 20px;
 	margin-top: 0;
@@ -318,8 +321,8 @@ p {
   border-right:0 !important;
 }
 .header-area .navbar-collapse .navbar-nav .nav-item.book-top:hover .nav-link {
-	background:#74be2e;
-	color: #000 !important;
+	background:#b6080b;
+	color: #fff !important;
 }
 .menu-fixed {
 	position: fixed;
@@ -392,6 +395,25 @@ p {
     width: 100%;
     border-radius: 40px;
 }
+.about-area .about-box{
+	background: #171E27;
+	padding: 30px;
+	border-radius: 20px;
+	margin:15px 0;
+}
+.about-area .about-box h1{
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: -0.5px;
+	font-size: 37px;
+}
+.about-text .about-box p{
+	font-size: 16px;
+	color: rgba(255,255,255,.75);
+	font-weight: 400;
+	letter-spacing: 0.45px;
+	margin-top:10px;
+}
 .about-text {
     width: 100%;
 	padding-left:15px;
@@ -408,7 +430,6 @@ p {
 	font-size: 15px;
 	color: rgba(255,255,255,.75);
 	font-weight: 400;
-	margin-bottom: 30px;
 	letter-spacing: 0.45px;
 }
 .about-text ul{
