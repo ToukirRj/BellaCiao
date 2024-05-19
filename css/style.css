@@ -491,7 +491,7 @@ p {
 .gentlenero-part {
 	padding: 100px 0;
 	border: 0;
-	background: rgba(2, 100, 135, 0.25);
+	background: #171E27;
 }
 .gentlenero-logo {
 	text-align: center;
@@ -511,12 +511,13 @@ p {
 	text-align: center;
 }
 .gentlenero-part .gentlenero-text h2 {
-	font-size: 53px;
-	font-weight: 600;
+	font-size: 57px;
+	font-weight: 800;
 	text-align: center;
 	color: #fff;
 	line-height: 65px;
 	padding-bottom: 30px;
+	letter-spacing: -0.25px;
 }
 .three-start {
 	text-align: center;
