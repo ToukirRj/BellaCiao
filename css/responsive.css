@@ -52,6 +52,7 @@
 	}
 	.header-area .navbar-collapse .navbar-nav .nav-link {
 		padding: 10px 12px;
+		font-size: 13px;
 	}
 	.banner-area .carousel-inner .item .content h1 {
 		font-size: 64px;
@@ -537,6 +538,27 @@
 	}
 	.timeline .timeline-container {
 		margin-top: 30px;
+	}
+	.qr-section {
+		padding: 50px 0;
+	}
+	.qr-section .qr-box {
+		padding: 30px;
+	}
+	.qr-section .qr-box h1 {
+		font-size: 35px;
+	}
+	.qr-section .qr-box h4 {
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 24px;
+		margin-bottom: 25px;
+		word-break: break-all;
+	}
+	#contact h4 {
+		font-size: 16px;
+		color: #a9a9a9;
+		line-height: 24px;
 	}
 }
 

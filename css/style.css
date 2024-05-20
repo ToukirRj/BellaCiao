@@ -71,7 +71,7 @@ p {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #092129;
+	background-color: #171E27;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -80,7 +80,7 @@ p {
 .loader-3 {
 	width: 48px;
 	height: 48px;
-	border: 3px solid #0190C9;
+	border: 3px solid #fff;
 	border-radius: 50%;
 	display: inline-block;
 	position: relative;
@@ -96,7 +96,7 @@ p {
 	height: 56px;
 	border-radius: 50%;
 	border: 3px solid transparent;
-	border-bottom-color: #000;
+	border-bottom-color: #E01218;
 }
 @-webkit-keyframes rotation {
     0% {
@@ -938,4 +938,76 @@ p {
     padding-top: 20px;
     border-top: 1px dashed rgba(255, 255, 255, 0.35);
     margin-top: 40px;
+}
+
+.qr-section{
+	padding: 100px 0;
+	background:rgba(23,30,39,0.5);
+}
+.qr-section .qr-box{
+	padding: 50px;
+	border-radius:30px;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+.qr-section .qr-box h1{
+	font-size: 40px;
+    color: rgba(255, 255, 255, 0.85);
+    letter-spacing: -1px;
+	font-weight:700;
+	margin-bottom:20px;
+}
+.qr-section .qr-box h4{
+	font-size: 16px;
+	font-weight: 600;
+	color: rgba(255,255,255,0.5);
+	line-height: 28px;
+	margin-bottom: 30px;
+}
+.qr-section .qr-box h4 span{
+	color: rgba(255,255,255,1);
+}
+.qr-section .qr-box .qr-img{
+	width: 150px;
+	margin:auto;
+	display:table;
+}
+.qr-section .qr-box .qr-img img{
+	width: 100%;
+}
+#contact h4{
+	font-size: 19px;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.contact-box{
+	width:100%;
+}
+.contact-box input,
+.contact-box textarea{
+	width:100%;
+	background:rgba(43, 57, 75, 0.35);
+	border-radius:7px;
+	border:0;
+	margin-bottom:20px;
+	color:#fff;
+	font-size:15px;
+	border:1px solid rgba(43, 57, 75, 0.45);
+}
+.contact-box input{
+	height:44px;
+}
+.contact-box input::placeholder,
+.contact-box textarea::placeholder{
+	color:rgba(255,255,255,0.35);
+}
+.contact-box textarea{
+	height:120px;
+}
+.contact-box input:focus,
+.contact-box textarea:focus{
+	background:rgba(43, 57, 75, 0.5);
+	border:1px solid #999;
+	color:#fff;
+	box-shadow:none;
 }
